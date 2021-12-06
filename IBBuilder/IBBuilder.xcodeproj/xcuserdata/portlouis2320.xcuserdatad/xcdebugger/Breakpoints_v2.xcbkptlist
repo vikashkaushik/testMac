@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "992444B4-30F1-4486-85A4-3C0BAACA0016"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CCE089B5-BED1-44EE-AF03-A39AEA82FE7B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IBBuilder/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "CCE089B5-BED1-44EE-AF03-A39AEA82FE7B - 9a05dda43c933bcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IBBuilder.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; IBBuilder.ViewController"
+                  moduleName = "IBBuilder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/portlouis2320/Documents/GitHub/testMac/IBBuilder/IBBuilder/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "CCE089B5-BED1-44EE-AF03-A39AEA82FE7B - fc3909ebad0c93e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IBBuilder.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; IBBuilder.ViewController"
+                  moduleName = "IBBuilder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/portlouis2320/Documents/GitHub/testMac/IBBuilder/IBBuilder/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  uuid = "CCE089B5-BED1-44EE-AF03-A39AEA82FE7B - 2a9b6b15eddbdf06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IBBuilder.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;IBBuilder.ViewController&gt;"
+                  moduleName = "IBBuilder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/portlouis2320/Documents/GitHub/testMac/IBBuilder/IBBuilder/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "CCE089B5-BED1-44EE-AF03-A39AEA82FE7B - b95704f208ee6524"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IBBuilder.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;IBBuilder.ViewController&gt;"
+                  moduleName = "IBBuilder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/portlouis2320/Documents/GitHub/testMac/IBBuilder/IBBuilder/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "74">
+               </Location>
+               <Location
+                  uuid = "CCE089B5-BED1-44EE-AF03-A39AEA82FE7B - 70e79aa5c30d935c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IBBuilder.ViewController.__deallocating_deinit"
+                  moduleName = "IBBuilder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/portlouis2320/Documents/GitHub/testMac/IBBuilder/IBBuilder/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
