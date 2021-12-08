@@ -3,6 +3,8 @@
  
  Create two constants, `nameInCaps` and `name`. Assign `nameInCaps` your name as a string literal with proper capitalization. Assign `name` your name as a string literal in all lowercase. Write an if-else statement that checks to see if `nameInCaps` and `name` are the same. If they are, print "The two strings are equal", otherwise print "The two strings are not equal."
  */
+let nameInCaps = "VIKASH"
+let name = "vikash"
 
 
 /*:
