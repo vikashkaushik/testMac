@@ -4,10 +4,18 @@
  The `Rectangle` struct below has two properties, one for width and one for height. Add a computed property that computes the area of the rectangle (i.e. width * height). Create an instance of `Rectangle` and print the `area` property.
  */
 struct Rectangle {
-    var width: Int
-    var height: Int
+    var width: Double
+    var height: Double
+    
+    func area() -> Double{
+        return width*height
+    }
     
 }
+
+let rectangle = Rectangle(width: 6, height: 1)
+print(rectangle.area())
+
 
 
 /*:
@@ -17,7 +25,7 @@ struct Rectangle {
  */
 struct Height {
     var heightInInches: Double
-    
+        
     var heightInCentimeters: Double
     
     init(heightInInches: Double) {
@@ -29,7 +37,20 @@ struct Height {
         self.heightInCentimeters = heightInCentimeters
         self.heightInInches = heightInCentimeters/2.54
     }
+    mutating func didSet(){
+        if heightInCentimeters == 2.54*heightInCentimeters {
+            self.heightInCentimeters == heightInCentimeters
+            
+        } else{
+            self.heightInCentimeters = heightInInches*2.54
+        }
+    }
 }
+
+var height = Height(heightInInches: 71)
+height.heightInInches = 72
+height.didSet()
+print(height.heightInCentimeters)
 
 
 

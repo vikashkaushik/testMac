@@ -33,14 +33,30 @@ print(favoriteBook.price)
 
  - Example: If you use the initializer for inches to pass in a height of 65, the initializer should set `heightInInches` to 65 and `heightInCentimeters` to 165.1.
  */
-
+struct Height{
+    var heightInInches: Double
+    var heightInCentimeters: Double
+    
+    init(heightInInches: Double){
+        self.heightInInches  = heightInInches
+        heightInCentimeters = heightInInches * 2.54
+    }
+    init(heightInCentimeters: Double){
+        self.heightInCentimeters  = heightInCentimeters
+        heightInInches = heightInCentimeters / 2.54
+        
+    }
+    
+    
+}
 
 //:  Now create a variable instance of `Height` called `someonesHeight`. Use the initializer for inches to set the height to 65. Print out the property for height in centimeters and verify that it is equal to 165.1.
-
+let someonesHeight = Height(heightInInches: 65)
+print(someonesHeight.heightInCentimeters)
 
 //:  Now create a variable instance of `Height` called `myHeight` and initialize it with your own height. Verify that both `heightInInches` and `heightInCentimeters` are accurate.
-
-
+let myHeight = Height(heightInInches: 70)
+print(myHeight.heightInCentimeters)
 /*:
 [Previous](@previous)  |  page 3 of 10  |  [Next: App Exercise - Users and Distance](@next)
  */
