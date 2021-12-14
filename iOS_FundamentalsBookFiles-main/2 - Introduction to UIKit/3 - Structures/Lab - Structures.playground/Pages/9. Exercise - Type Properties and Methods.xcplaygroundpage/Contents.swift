@@ -5,7 +5,7 @@
  */
 struct User {
     
-    static var currentUser: User = User(userName: "robocop", email: "rjt97@me.com", age: 23)
+    static var currentUser: User = User(userName: "bilbaothanos6", email: "matthew.portlouis@gmail.com", age: 17)
     
     static func logIn(user: User) {
         currentUser = user
